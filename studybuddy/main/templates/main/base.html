@@ -1,0 +1,73 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Proyecto</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <!-- Reemplaza 'TU Proyecto' con una imagen del logotipo -->
+        
+        <nav class="navbar">
+            <img src="{% static 'media/logo.png' %}" alt="Logo" class="logo">
+            <div class="right-menu">
+                <div class="dropdown">
+                    <button class="dropbtn">¿QUÉ OFRECEMOS?</button>
+                    <div class="dropdown-content">
+                        <p>Holaa!!</p>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">NOSOTROS</button>
+                    <div class="dropdown-content">
+                        <p>Holaa!!</p>
+                    </div>
+                </div>
+            </div>
+        </nav>                 
+      </header>
+      
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <h1>Bienvenido a Tu Proyecto</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida nisl ac justo interdum auctor.</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-info">
+                <img src="{% static 'media/logo2.png' %}" alt="Logo" class="logo2">
+                <p>© 2023 StudyBuddy · Todos los derechos reservados.</p>
+        
+            </div>
+            <div class="footer-links">
+                <h5>Dirección</h5>
+                <ul>
+                    <li>Cartago, Costa Rica</li>
+                    <li>Los Ángeles, Cartago</li>
+                    <li>Mvl: (+506) 8400 5826</li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h5>Más Información</h5>
+                <ul>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/nosotros">Nosotros</a></li>
+                    <li><a href="/contacto">Contactar</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
